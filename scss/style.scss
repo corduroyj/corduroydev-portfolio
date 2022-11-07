@@ -1,0 +1,22 @@
+@use "custom";
+
+//import sections
+
+@use "sections/footer";
+@use "sections/intro";
+@use "sections/pricing";
+@use "sections/projects";
+@use "sections/testimonies";
+@use "sections/topbar";
+@use "sections/skillset";
+
+//begin styling
+$primary-dark: #2b2d42;
+$primary-grey: #8d99ae;
+$primary-light: #edf2f4;
+$primary-red: #ef233c;
+$primary-red-dark: #d80032;
+
+.main {
+  color: $primary-dark;
+}

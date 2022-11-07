@@ -1,0 +1,74 @@
+html {
+  font-size: 10px;
+  background-image:
+    linear-gradient(
+      to right,
+      #ffcbf2,
+      #f3c4fb,
+      #ecbcfd,
+      #e5b3fe,
+      #e2afff,
+      #deaaff,
+      #d8bbff,
+      #d0d1ff,
+      #c8e7ff,
+      #c0fdff
+    );
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* places the boxes in a row instead of in a column */
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 50vh;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.sliders {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2rem;
+}
+
+/* makes the little boxes */
+.key {
+  border: .4rem solid rgb(255, 255, 255);
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(173, 147, 147, 0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #b9f7ff;
+}
